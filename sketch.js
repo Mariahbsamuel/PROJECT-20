@@ -32,6 +32,7 @@ function draw(){
   background("green")
 
   car.velocityX = 5
+  
 
   if(car.x - wall.x < wall.width/2 + car.width/2){
     car.shapeColor = "orange"
